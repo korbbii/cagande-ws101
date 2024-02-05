@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tennis Players</title>
+  <style>
+    table {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 3px solid #dddddd;
+      text-align: left;
+      padding: 7px;
+    }
+
+    th {
+      background-color: #dddddd;
+    }
+
+    .leaderboard-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .leaderboard-table {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <center><h1> Tennis </h1></center>
+  <h2><dd> Overview </h2></dd>
+  <p><dd> Tennis is a game played on a rectangular-shaped court, which can be one of many surfaces. 
+    It is either played with two players (singles match), or four players (doubles match). Players stand on opposite sides of the net and use a stringed racquet to hit the ball back and forth to each other.  </p></dd>
+    <hr> 
+  <div class="leaderboard-container">
+    <div class="leaderboard-table">
+      <br>
+      <h3><dd>Tennis Players Single Leaderboard </h3></dd>
+  
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Last name</th>
+          <th>First name</th>
+          <th>Points</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Djokovic</td>
+          <td>Novak</td>
+          <td>9,855</td>
+          <td>Serbian</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Alcaraz</td>
+          <td>Carlos</td>
+          <td>9,255</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Medvedev</td>
+          <td>Daniil</td>
+          <td>8,765</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Sinner</td>
+          <td>Jannik</td>
+          <td>8,310</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Rudlev</td>
+          <td>Andrey</td>
+          <td>5,050</td>
+          <td>Russian</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="leaderboard-table">
+      <br>
+      <h3><dd> Tennis Players Double Leaderboard </h3></dd>
+  
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Last name</th>
+          <th>First name</th>
+          <th>Points</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Bopanna</td>
+          <td>Rohan</td>
+          <td>8,450</td>
+          <td>Indian</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Ebden</td>
+          <td>Matthew</td>
+          <td>8,450</td>
+          <td>Australian</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Krajicek</td>
+          <td>Austin</td>
+          <td>7,160</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Dodig</td>
+          <td>Ivan</td>
+          <td>6,605</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Ram</td>
+          <td>Rajeev</td>
+          <td>6,450</td>
+          <td>American</td>
+        </tr>
+      </table>
+      <br>
+      <br>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <h1><dd> Rules of Tennis </h1></dd>
+  <ol>
+    <li> A tennis match begins with the umpire doing a coin toss. The player who wins the toss can choose to serve, receive or pick the side from which they want to start the match.</li>
+    <br>
+    <li> The serving player has to stand behind the baseline of his side of the tennis court and within the bounds of the centre mark and the sideline.</li>
+    <br>
+    <li> For a successful serve, the server has to toss the ball up with his non-playing hand and hit it with the racket before it bounces. The ball needs to cross the net and land within the serving area which is marked on the diagonally opposite side of the court for it to be deemed a legal serve.</li>
+    <br>
+    <li> Each player is allowed two serves per point. If a player hits the net, or the ball’s first bounce occurs outside the serving area, it's called a service fault and the server has a second serve to initiate the point.</li>
+    <br>
+    <li> If the server’s foot touches the baseline or goes out of bounds of the sideline, it is known as a foot fault and the server will have a second serve.</li>
+    <br>
+    <li> If a player commits a fault on his second serve also, it is called a double fault and the receiving player gets that point.</li>
+    <br>
+    <li> However, if a player’s serve hits the net and lands within the serving area, then the server will still have two serves to initiate the point. This situation is known as let.</li>
+    <br>
+    <li> The server has to alternate between the vertical halves of the tennis court for each point.</li>   
+    <br>
+    <li> If the server manages to land a legal serve and the receiver is unable to return the ball, it is known as an ace and the server gets the point.</li>
+  </ol>
+  <br>
+  <p><center> If you want to know how to play Tennis <a href="https://olympics.com/en/news/tennis-rules-regulations-how-to-play-basics" target="_blank">click here</a>.</p></center>
+  <br>
+  <hr>
+  <br>
+  <center><h1> Game Setup </h1></center>
+  <br>
+  <figure style="display: flex; flex-direction: column; align-items: center;">
+      <img src="https://media4.giphy.com/media/lJQOvjLDoayBh3PWqC/giphy.gif?cid=6c09b952066zbln95tjqh4h1f8kgv6pulnj6f8ya45ibyu48&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Tennis Image 1" style="width: 500px;">
+      <figcaption style="margin-top: 10px;"> Single Tennis Game </figcaption>
+      <br>
+      <img src="https://i.gifer.com/embedded/download/Fb2q.gif" alt="Tennis Image 2" style="width: 500px;">
+      <figcaption style="margin-top: 10px;"> Double Tennis Game </figcaption>
+  </figure>
+  <hr>
+  <br>
+</body>
+</html>
 
