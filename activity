@@ -1,0 +1,319 @@
+----About-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+
+        center a {
+            color: white; 
+            text-decoration: none; 
+            padding: 0 10px; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <center>
+        <a href="home.html"> Home </a>&nbsp;&nbsp;&nbsp;<a href="skillss.html"> My Skills </a>&nbsp;&nbsp;&nbsp;<a href="contactt.html"> Contact </a>&nbsp;&nbsp;&nbsp;<a href="education.html"> Education </a><br><br>
+    </center>
+    <br><br><br><br><br>
+    <div style="display: flex; align-items: center; justify-content: center; height: 80vh; margin: 0;">
+        
+        <div style = "text-align: center; padding: 20px;">
+            <figure>
+                <img src="https://scontent.fdvo1-1.fna.fbcdn.net/v/t39.30808-6/366829080_1485213335570285_680822649628528744_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEUGy_RcfVrRvd6IdDWnrYq-2H9IYM797X7Yf0hgzv3tZAOariCdWyIEF5X6cXGSncpgkjLMoOl35JiF_uZZkL5&_nc_ohc=ir74LRD7xnMAX9OB9W6&_nc_ht=scontent.fdvo1-1.fna&oh=00_AfAlS8KDVTchbduolRmEMu2eSpcOEHbOGis0-wC_C6iqbQ&oe=65C6735C" alt="Trulli" style="height: 300px;"><br>
+                <br>
+                <figcaption> Hi, Welcome to my Website <br> I'm Kirby Manuel T. Cagande, the youngest of our siblings.<br>A Second Year BSIT Student at Gingoog City Colleges(GCC). <br>I've been studying Information Technology because I really want <br> to know all about technologies, how they work and how to make one. <br> I like playing Online Games and Watching Movies to cure my boredom. <br> I always wanted to become a Web Designer/Developer.</figcaption>
+              </figure>
+        </div>
+</body> 
+</html>
+
+---------------------------------------------------------------------------------------------------
+---------Contact----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+
+        center a {
+            color: white; 
+            text-decoration: none; 
+            padding: 0 10px; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <center>
+        <a href="home.html"> Home </a>&nbsp;&nbsp;&nbsp;
+        <a href="about.html"> About Me </a>&nbsp;&nbsp;&nbsp;
+        <a href="skillss.html"> My Skills </a>&nbsp;&nbsp;&nbsp;
+        <a href="education.html"> Education </a><br>
+    </center><br>
+    <div><br>
+        <br><br>
+        <h2 style="text-align: center;">Reach Out</h2>
+        <form action="#" method="post" style="max-width: 600px; margin: 0 auto; padding: 20px;">
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="concern" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Concern:</label>
+                <textarea id="concern" name="concern" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; height: 100px;"></textarea>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            </div>
+        </form>
+        <div style="display: flex; align-items: center; justify-content: center; height: 10vh; margin: 0;">
+            <div style="text-align: center; padding: 18 px;">
+        <dt> Contact No: +63 909 587 3124</dt>
+        <a href="https://www.facebook.com/korby.yyyy"> Facebook </a><br>
+        <a href="https://github.com/korbbii"> Github </a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------
+----------Education---------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+
+        center a {
+            color: white; 
+            text-decoration: none; 
+            padding: 0 10px; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <center>
+        <a href="home.html"> Home </a>&nbsp;&nbsp;&nbsp;
+        <a href="about.html"> About Me </a>&nbsp;&nbsp;&nbsp;
+        <a href="skillss.html"> My Skills </a>&nbsp;&nbsp;&nbsp;
+        <a href="contactt.html"> Contact </a>
+    </center>
+    <div style="display: flex; align-items: center; justify-content: center; height: 90vh; margin: 0;">
+        
+        <div style = "text-align: center; padding: 20px;">
+            <br>
+        <h2> My Educational Attainment </h2><br><br>
+        <br>
+        <p><b>2019-2020</b><br> Graduated High School <br> Gingoog City Colleges </p><br>
+        <br><br>
+        <p><b>2021-2022</b><br>Graduated Senior High School <br> Gingoog City Colleges </p><br>
+        <br><br>
+        <p><b>2022-2023</b><br> Started Studying College <br> Gingoog City Colleges </p>
+
+            </div>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------
+---------------Home---------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+        body {
+            background-image: url('https://scontent.fdvo1-1.fna.fbcdn.net/v/t39.30808-6/366829080_1485213335570285_680822649628528744_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEUGy_RcfVrRvd6IdDWnrYq-2H9IYM797X7Yf0hgzv3tZAOariCdWyIEF5X6cXGSncpgkjLMoOl35JiF_uZZkL5&_nc_ohc=ir74LRD7xnMAX9OB9W6&_nc_ht=scontent.fdvo1-1.fna&oh=00_AfAlS8KDVTchbduolRmEMu2eSpcOEHbOGis0-wC_C6iqbQ&oe=65C6735C');
+            background-size: cover;
+            background-position: center;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+
+        center a {
+            color: white; 
+            text-decoration: none; 
+            padding: 0 10px; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <center>
+        <a href="about.html"> About Me </a>&nbsp;&nbsp;&nbsp;
+        <a href="skillss.html"> My Skills </a>&nbsp;&nbsp;&nbsp;
+        <a href="contactt.html"> Contact</a>&nbsp;&nbsp;&nbsp;
+        <a href="education.html"> Education </a>
+    </center>
+    <div class="content">
+        <div>
+            <div style="font-size: 24px;"> Hello, </div>
+            <h1> I'm Kirby Manuel T. Cagande </h1>
+        </div>
+    </div>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------
+------------------Skills----------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+
+        center a {
+            color: white; 
+            text-decoration: none; 
+            padding: 0 10px; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <center>
+        <a href="home.html"> Home </a>&nbsp;&nbsp;&nbsp;<a href="about.html"> About Me </a>&nbsp;&nbsp;&nbsp;<a href="contactt.html"> Contact </a>&nbsp;&nbsp;&nbsp;<a href="education.html"> Education </a>
+    </center>
+    
+    <div style="display: flex; align-items: center; justify-content: center; height: 80vh; margin: 0;">
+        
+        <div style="text-align: center; padding: 20px;">
+            <ul>
+            <h2> My Skills </h2>
+                <li> Problem Solving </li>
+                <li> Coding(ses hahahahha)</li>
+                <li> Assembling and Reassembling a System unit</li>
+        </ul>
+            <a href="file:///C:/Users/Edward/Downloads/CAGANDE.resume.pdf" style="color: white;"> Here is my CV </a>
+        </div>
+</body>
+</html>
